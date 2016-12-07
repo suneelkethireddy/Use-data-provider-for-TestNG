@@ -8,7 +8,7 @@ public class DataProviderClass {
 	
 	@DataProvider(name="getLoginData")
 	public static  Object[][] getLoginData() throws IOException{
-		System.out.println("Good to see to here");
+		System.out.println("This is in new branch: branchA");
 		return ReadFromExcelFile.getExcelData("Login.xlsx", "LoginDetails");
 		
 		
